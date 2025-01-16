@@ -75,7 +75,7 @@ nav button {
 }
 
 .content {
-    width: 30%;
+    width: 40%;
 
 
 }
@@ -147,6 +147,7 @@ nav button {
     display: flex;
     justify-content: space-evenly;
     margin-top: 4em;
+    gap: 5em;
 
 }
 
@@ -176,7 +177,9 @@ nav button {
 }
 
 .articles .card img{
-    height: 200px;
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
 }
 .articles .cards{
    gap: 2em;
